@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body {
+    background: #100e17;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 800px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.myDudeText {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17FF83;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 4px; 
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17FF83;
+    font-size: 60px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
